@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Cioli Portfolio
 
-## Getting Started
+Bem-vindo ao repositório do **Cioli Portfolio**, um portfólio moderno e interativo desenvolvido para apresentar projetos, habilidades e informações profissionais de um Desenvolvedor Fullstack.
 
-First, run the development server:
+O projeto apresenta um design com tema espacial (dark mode) e utiliza tecnologias modernas para criar uma experiência de usuário fluida e atraente.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Tecnologias Utilizadas
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Este projeto foi construído com as seguintes tecnologias:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+-   **[Next.js 14](https://nextjs.org/)**: Framework React para produção, utilizado para estruturação do app e roteamento.
+-   **[React](https://react.dev/)**: Biblioteca JavaScript para construção de interfaces de usuário.
+-   **[TypeScript](https://www.typescriptlang.org/)**: Superset do JavaScript que adiciona tipagem estática.
+-   **[Tailwind CSS](https://tailwindcss.com/)**: Framework CSS utilitário para estilização rápida e responsiva.
+-   **[Framer Motion](https://www.framer.com/motion/)**: Biblioteca para animações fluidas e complexas.
+-   **[Three.js](https://threejs.org/)** / **[@react-three/fiber](https://docs.pmnd.rs/react-three-fiber)**: Para renderização de elementos 3D (ex: fundo de estrelas e buraco negro).
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 🎨 Design e Cores
 
-## Learn More
+O design original foi adaptado para refletir a identidade visual da marca **Cioli**, utilizando uma paleta de cores baseada em tons de azul e ciano sobre um fundo escuro espacial.
 
-To learn more about Next.js, take a look at the following resources:
+-   **Cor Primária**: `#2493FA` (Azul Brilhante)
+-   **Cor Secundária**: `#165CAD` (Azul Escuro)
+-   **Fundo**: `#04101F` (Azul Quase Preto / Espacial)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Como Executar o Projeto
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Siga os passos abaixo para rodar o projeto em sua máquina local:
 
-## Deploy on Vercel
+1.  **Clone o repositório:**
+    ```bash
+    git clone https://github.com/MarciolimaDev/MarciolimaDev.github.io.git
+    cd MarciolimaDev.github.io
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2.  **Instale as dependências:**
+    ```bash
+    npm install
+    # ou
+    yarn install
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+3.  **Execute o servidor de desenvolvimento:**
+    ```bash
+    npm run dev
+    # ou
+    yarn dev
+    ```
+
+4.  **Acesse o projeto:**
+    Abra [http://localhost:3000](http://localhost:3000) no seu navegador.
+
+## 📦 Deploy (GitHub Pages)
+
+Este projeto está configurado para deploy estático no **GitHub Pages**.
+
+-   O comando `npm run build` gera os arquivos estáticos na pasta `out/`.
+-   As configurações de exportação (`output: 'export'`) e desativação de otimização de imagem estão no `next.config.js`.
+
+Para realizar o deploy:
+1.  Faça o push das alterações para a branch `main`.
+2.  No GitHub, vá em **Settings > Pages**.
+3.  Configure a fonte para **GitHub Actions** (recomendado para Next.js) ou deploy a partir de uma branch.
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
