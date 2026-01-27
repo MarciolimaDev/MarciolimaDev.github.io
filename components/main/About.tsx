@@ -21,10 +21,10 @@ const About = () => {
                             variants={slideInFromTop}
                             className="text-[40px] pt-[5rem] pb-3 md:p-0 font-medium text-center text-gray-200 z-50"
                         >
-                            About
-                            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+                            Sobre
+                            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-cyan-500">
                                 {" "}
-                                Me{" "}
+                                Mim{" "}
                             </span>
                         </motion.div>
                     )}
@@ -39,9 +39,9 @@ const About = () => {
                             initial="hidden"
                             animate={inView ? "visible" : "hidden"}
                             variants={slideInFromLeft(0.5)}
-                            className="flex flex-col items-center w-auto h-auto rounded-full overflow-hidden border-[6px] border-[#7042f88b] bg-gradient-to-r from-purple-500 to-cyan-500"
+                            className="flex flex-col items-center w-auto h-auto rounded-full overflow-hidden border-[6px] border-[#2493FA8b] bg-gradient-to-r from-blue-500 to-cyan-500"
                         >
-                            <img src="/jenin.jpg" alt="profile" width={250} />
+                            <img src="/cioli.png" alt="profile" width={250} />
                         </motion.div>
                     )}
                 </InView>
@@ -53,10 +53,10 @@ const About = () => {
                             initial="hidden"
                             animate={inView ? "visible" : "hidden"}
                             variants={slideInFromRight(0.5)}
-                            className="Welcome-box px-[15px] py-[8px] z-[20] brder my-[20px] border-[#7042f88b] opacity-[0.9]"
+                            className="Welcome-box px-[15px] py-[8px] z-[20] brder my-[20px] border-[#2493FA8b] opacity-[0.9]"
                         >
                             <h1 className="Welcome-text text-[20px] font-bold">
-                                Jenin Joseph
+                                Marcio Lima
                             </h1>
                         </motion.div>
                     )}
@@ -69,22 +69,10 @@ const About = () => {
                             initial="hidden"
                             animate={inView ? "visible" : "hidden"}
                             variants={slideInFromBottom}
-                            className="Welcome-box px-[15px] w-[90%] md:w-3/4 py-[8px] z-[20] brder mb-[20px] border-[#7042f88b] opacity-[0.9]"
+                            className="Welcome-box px-[15px] w-[90%] md:w-3/4 py-[8px] z-[20] brder mb-[20px] border-[#2493FA8b] opacity-[0.9]"
                         >
                             <h1 className="Welcome-text text-[16px] w-full text-justify">
-                                As a passionate Full Stack Developer with
-                                expertise in React, TypeScript, Django, REST,
-                                HTML, and CSS, I excel in crafting seamless
-                                digital experiences. My journey includes roles
-                                as a MuLearn Intern, Union Chairman at SNGIST,
-                                and CEO at SNGIST IEDC, where I&apos;ve driven
-                                innovation and led digital transformations. As a
-                                leader, I&apos;ve empowered teams towards
-                                excellence and fostered an entrepreneurial
-                                spirit. I&apos;m keen to connect with
-                                like-minded tech enthusiasts and visionaries to
-                                explore new opportunities and push the
-                                boundaries of innovation.
+                                Como desenvolvedor Full Stack apaixonado, com experiência em React, TypeScript, Django, REST, HTML e CSS, destaco-me na criação de experiências digitais impecáveis. Minha trajetória inclui passagens como estagiário da MuLearn, presidente do sindicato na SNGIST e CEO da SNGIST IEDC, onde impulsiono a inovação e lidero transformações digitais. Como líder, capacito equipes rumo à excelência e fomento o espírito empreendedor. Estou ansioso para me conectar com outros entusiastas e visionários da tecnologia para explorar novas oportunidades e expandir os limites da inovação.
                             </h1>
                         </motion.div>
                     )}
@@ -92,7 +80,7 @@ const About = () => {
             </div>
             <div className="absolute z-[20] bottom-[-4rem] md:bottom-[10px] px-[5px]">
                 <div className="cursive text-[20px] font-medium text-center text-gray-300">
-                    Shaping Tomorrow with Code and Creativity
+                    Moldando o amanhã com código e criatividade
                 </div>
             </div>
 
@@ -104,7 +92,7 @@ const About = () => {
                     playsInline
                     preload="false"
                     className="h-full"
-                    src="/encryption.webm/"
+                    src="/encryption.mp4/"
                 />
             </div>
         </section>

@@ -30,11 +30,11 @@ const HeroContent = () => {
                                         initial="hidden"
                                         animate={inView ? "visible" : "hidden"}
                                         variants={slideInFromTop}
-                                        className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
+                                        className="Welcome-box py-[8px] px-[7px] border border-[#2493FA8b] opacity-[0.9]"
                                     >
-                                        <BsStars className="text-[#b49bff] mr-[10px] h-5 w-5" />
+                                        <BsStars className="text-[#60A5FA] mr-[10px] h-5 w-5" />
                                         <h1 className="Welcome-text text-[13px]">
-                                            Fullstack Developer
+                                            Desenvolvedor Fullstack
                                         </h1>
                                     </motion.div>
                                 )}
@@ -47,11 +47,11 @@ const HeroContent = () => {
                                         initial="hidden"
                                         animate={inView ? "visible" : "hidden"}
                                         variants={slideInFromTop}
-                                        className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
+                                        className="Welcome-box py-[8px] px-[7px] border border-[#2493FA8b] opacity-[0.9]"
                                     >
-                                        <BsStars className="text-[#b49bff] mr-[10px] h-5 w-5" />
+                                        <BsStars className="text-[#60A5FA] mr-[10px] h-5 w-5" />
                                         <h1 className="Welcome-text text-[13px]">
-                                            Tech Innovator
+                                            Innovador Técnico
                                         </h1>
                                     </motion.div>
                                 )}
@@ -63,11 +63,11 @@ const HeroContent = () => {
                                         initial="hidden"
                                         animate={inView ? "visible" : "hidden"}
                                         variants={slideInFromTop}
-                                        className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
+                                        className="Welcome-box py-[8px] px-[7px] border border-[#2493FA8b] opacity-[0.9]"
                                     >
-                                        <BsStars className="text-[#b49bff] mr-[10px] h-5 w-5" />
+                                        <BsStars className="text-[#60A5FA] mr-[10px] h-5 w-5" />
                                         <h1 className="Welcome-text text-[13px]">
-                                            Team Lead
+                                            Líder de equipe
                                         </h1>
                                     </motion.div>
                                 )}
@@ -84,17 +84,17 @@ const HeroContent = () => {
                                     className="flex flex-col gap-6 mt-6 md:text-5xl text-4xl font-bold text-white max-w-[600px] w-auto h-auto z-20"
                                 >
                                     <span>
-                                        Coding
-                                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+                                        Codificando
+                                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-cyan-500">
                                             {" "}
-                                            Dreams{" "}
+                                            Sonhos{" "}
                                         </span>
-                                        into
-                                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+                                        para
+                                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-cyan-500">
                                             {" "}
-                                            Reality{" "}
+                                            Realidade{" "}
                                         </span>
-                                        one line at a time
+                                        linha por linha
                                     </span>
                                 </motion.div>
                             )}
@@ -110,18 +110,17 @@ const HeroContent = () => {
                                     className="text-sm md:text-md text-gray-400 my-5 max-w-[650px] z-30"
                                 >
                                     <li>
-                                        Finalist in the Top 100 Coders Challenge
+                                        Finalista no Top 100 Coders Challenge
                                     </li>
                                     <li>
-                                        Ranked within the Top 9,000 on
-                                        HackerRank
+                                        Classificado no Top 9,000 no HackerRank
                                     </li>
                                     <li>
-                                        Participated and Completed Hacktoberfest
+                                        Participante e Completado Hacktoberfest
                                         2023
                                     </li>
                                     <li>
-                                        Served as a Mentor in Multiple
+                                        Serviço como mentor em múltiplos
                                         Hackathons.
                                     </li>
                                 </motion.div>
@@ -137,7 +136,7 @@ const HeroContent = () => {
                                     variants={slideInFromLeft(1)}
                                     className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] z-40"
                                 >
-                                    Learn More!
+                                    Saber Mais!
                                 </motion.a>
                             )}
                         </InView>

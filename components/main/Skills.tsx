@@ -4,7 +4,7 @@ import {
     Backend_skill,
     DevTools,
     Frontend_skill,
-	libraries,
+    libraries,
 } from "@/constants";
 import React from "react";
 import SkillDataProvider from "../sub/SkillDataProvider";
@@ -32,9 +32,9 @@ const Skills = () => {
                                     initial="hidden"
                                     animate={inView ? "visible" : "hidden"}
                                     variants={slideInFromLeft(0.5)}
-                                    className="rounded-md text-[white] w-full my-auto py-[8px] px-[10px] border border-[#7042f88b] opacity-[0.9]"
+                                    className="rounded-md text-[white] w-full my-auto py-[8px] px-[10px] border border-[#2493FA8b] opacity-[0.9]"
                                 >
-                                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-2xl font-bold">
+                                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-cyan-500 text-2xl font-bold">
                                         Frontend{" "}
                                     </span>
                                     <br />
@@ -61,9 +61,9 @@ const Skills = () => {
                                     initial="hidden"
                                     animate={inView ? "visible" : "hidden"}
                                     variants={slideInFromRight(0.5)}
-                                    className="rounded-md text-[white] w-full h-full py-[8px] px-[10px] border border-[#7042f88b] opacity-[0.9]"
+                                    className="rounded-md text-[white] w-full h-full py-[8px] px-[10px] border border-[#2493FA8b] opacity-[0.9]"
                                 >
-                                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-2xl font-bold">
+                                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-cyan-500 text-2xl font-bold">
                                         Backend{" "}
                                     </span>
                                     <br />
@@ -92,10 +92,10 @@ const Skills = () => {
                                     initial="hidden"
                                     animate={inView ? "visible" : "hidden"}
                                     variants={slideInFromLeft(0.5)}
-                                    className="rounded-md text-[white] w-full my-auto py-[8px] px-[10px] border border-[#7042f88b] opacity-[0.9]"
+                                    className="rounded-md text-[white] w-full my-auto py-[8px] px-[10px] border border-[#2493FA8b] opacity-[0.9]"
                                 >
-                                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-2xl font-bold">
-                                        Dev Tools{" "}
+                                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-cyan-500 text-2xl font-bold">
+                                        Ferramentas{" "}
                                     </span>
                                     <br />
                                     <div className="flex flex-row justify-around flex-wrap my-4 gap-5 items-center">
@@ -121,10 +121,10 @@ const Skills = () => {
                                     initial="hidden"
                                     animate={inView ? "visible" : "hidden"}
                                     variants={slideInFromRight(0.5)}
-                                    className="rounded-md text-[white] w-full h-full py-[8px] px-[10px] border border-[#7042f88b] opacity-[0.9]"
+                                    className="rounded-md text-[white] w-full h-full py-[8px] px-[10px] border border-[#2493FA8b] opacity-[0.9]"
                                 >
-                                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-2xl font-bold">
-                                        Libraries{" "}
+                                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-cyan-500 text-2xl font-bold">
+                                        Bibliotecas{" "}
                                     </span>
                                     <br />
                                     <div className="flex flex-row justify-around flex-wrap my-4 gap-5 items-center">
@@ -154,7 +154,7 @@ const Skills = () => {
                         loop
                         muted
                         autoPlay
-                        src="/cards-video.webm"
+                        src="/cards-video.mp4"
                     />
                 </div>
             </div>

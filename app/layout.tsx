@@ -8,8 +8,8 @@ import Footer from "@/components/main/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-    title: "Portfolio",
-    description: "My portfolio",
+    title: "Cioli Portfolio",
+    description: "Portfolio Cioli",
 };
 
 export default function RootLayout({
@@ -18,14 +18,13 @@ export default function RootLayout({
     children: React.ReactNode;
 }) {
     return (
-        <html lang="en">
+        <html lang="pt-BR">
             <body
-                className={`${inter.className} bg-[#030014] overflow-y-scroll overflow-x-hidden max-w-[1855px] mx-auto`}
+                className={`${inter.className} bg-[#04101F] overflow-y-scroll overflow-x-hidden max-w-[1855px] mx-auto`}
             >
                 <StarsCanvas />
                 <Navbar />
                 {children}
-                {/* <Footer /> */}
             </body>
         </html>
     );
